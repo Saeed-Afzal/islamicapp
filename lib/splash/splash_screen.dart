@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xFFF0F0F0),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -29,19 +29,21 @@ class _SplashScreenState extends State<SplashScreen> {
             //   // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2OoNQeH9ykAxKGr_XGzxpb6Dlaqtx8GshGY5xG0wpeySq1aart2s77Rma-stb5ERHa3w&usqp=CAU"
             //   "https://i.ibb.co/KrsFQgH/png-transparent-two-yellow-and-red-gift-boxes-illustration-drawing-computer-icons-lucky-draw-miscell.png"
             //   ),
+
+            Image.asset('assets/logo1.jpg'),
             CircularProgressIndicator(
-              backgroundColor: Colors.white,
-            ),
+                // backgroundColor: Colors.white,
+                ),
             SizedBox(
               height: 50,
             ),
-            Text(
-              "INDIAN UMMAH",
-              style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.green),
-            ),
+            // Text(
+            //   "INDIAN UMMAH",
+            //   style: TextStyle(
+            //       fontSize: 30,
+            //       fontWeight: FontWeight.bold,
+            //       color: Colors.green),
+            // ),
           ],
         ),
       ),
